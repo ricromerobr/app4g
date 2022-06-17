@@ -1,0 +1,150 @@
+{
+  "Version": "1.0.0.0.007",
+  "ReleaseNotes": "",
+  "UrlUpdate": "https://paste.anasor.com/paste.php?raw&id=13321",
+  "Sms": "https://paste.anasor.com/paste.php?raw&id=8736",
+  "EmailFeedback": "ptanet2022@gmail.com",
+  "UrlContato": "https://wa.link/5nes56",
+  "UrlTermos": "https://sites.google.com/view/ptanet-termos/in%C3%ADcio",
+  "CheckUser": "true",
+  "Udp": [
+    {
+      "Porta": "7200"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "PTANET BRASIL",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "srvazr1.gatonetptaflex.xyz",
+      "CheckUser": "http://srvazr1.gatonetptaflex.xyz:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "PTANET DANIEL",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "srvazr9.gatonetptaflex.xyz",
+      "CheckUser": "http://srvazr9.gatonetptaflex.xyz:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "proxyvivo3.gatonetptaflex.xyz",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+   {
+      "Name": "VIVO2",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.24.10.16",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "TIM1",
+      "FLAG": "tim",
+      "Payload": "GET ws://image.mail.c6bank.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "image.mail.c6bank.com.br",
+      "TlsIP": "image.mail.c6bank.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM2",
+      "FLAG": "tim",
+      "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM3",
+      "FLAG": "tim",
+      "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.4.175",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM4",
+      "FLAG": "tim",
+      "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "static.r4you.co",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+   {
+     "Name": "CLARO",
+      "FLAG": "Claro",
+      "Payload": "GET wss://communitystaging.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "communitystaging.kaltura.com",
+      "TlsIP": "communitystaging.kaltura.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+      },
+   {
+     "Name": "CLARO2",
+      "FLAG": "Claro",
+      "Payload": "GET wss://api.New.livestream.com/ HTTP/1.1[crlf]Host:  [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "api.nEw.livestream.com",
+      "TlsIP": "api.neW.livestream.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+      },
+   {
+     "Name": "CLARO3",
+      "FLAG": "Claro",
+      "Payload": "GET wss://stage-corp.kaltura.com/ HTTP/1.1[crlf]Host:  [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "stage-corp.kaltura.com",
+      "TlsIP": "stage-corp.kaltura.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+      },
+    {
+      "Name": "Oi",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost:  [app_host]\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "proxyoi3",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
